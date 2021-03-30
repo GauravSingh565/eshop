@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+    <title>eShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./lightslider-master/dist/css/lightslider.css" />
+</head>
+
+<body>
+
+    <!-- navbar start--------------------------------------------------------- -->
+    <header>
+        <div class="icon">
+            <div class="s_icon">
+                <ul>
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+            <div class="contact_No">
+                <h5>Call: +123456789</h5>
+            </div>
+        </div>
+
+        <section class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo_img">
+                </div>
+
+                <div class="navlink">
+                    <ul id="ulitem">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#shop">SHOP</a></li>
+                        <li><a href="#men">MEN</a>
+                            <span class="sale_lab">SALE</span>
+                        </li>
+                        <li><a href="#women">WOMEN</a></li>
+                        <li><a href="#kids">KIDS</a></li>
+
+                        <div class="search_box">
+                            <input class="search_txt" type="text" name="input" placeholder="Type to Search">
+                            <li class="search_btn"><i class="fa fa-search" aria-hidden="true"></i></li>
+                        </div>
+
+                    </ul>
+
+                </div>
+                <img src="./images/menu.png" class="menu" onclick="menubtn()">
+
+                <div class="info">
+                    <ul>
+
+
+                        <li><i class="fa fa-user-o user" aria-hidden="true"></i></li>
+                        <li><span class="info_span">0</span> <i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+    </header>
+
+    <!-- navbar  end--------------------------------------------------------- -->
+
+
+    <!---login-and-sign-up--------------------------------->
+    <div class="form">
+        <!--login---------->
+        <div class="login-form">
+            <!--cancel-btn---------------->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fa fa-times cancle" aria-hidden="true"></i>
+            </a>
+            <strong>Log In</strong>
+            <!--inputs-->
+            <form>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Log In" />
+            </form>
+            <!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+
+        <!--Sign-up---------->
+        <div class="sign-up-form">
+            <!--cancel-btn---------------->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fa fa-times cancle" aria-hidden="true"></i>
+            </a>
+            <strong>Sign Up</strong>
+            <!--inputs-->
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required/>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Sign Up" />
+            </form>
+            <!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-account">
+            Already Have Account?</a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- form section end------------------------------------------- -->
+
+    <!-- background section start--------------------------------------------------- -->
+
+    <ul id="adaptive" class="cs-hidden">
+
+        <!-- first slide------------------------------ -->
+
+        <li class="item-a">
+            <section class="background slide_1">
+                <div class="slider_1">
+                    <div class="slider_txt">
+                        <h3>LIMITED OFFER</h3>
+                        <H1> 30% off</H1>
+                        <h1>With <span>Promo Code</span></h1>
+                        <button type="button" class="btn">SHOP NOW</button>
+                    </div>
+                </div>
+            </section>
+        </li>
+
+        <!-- second slide-------------------------------------- -->
+
+        <li class="item-a">
+            <section class="background slide_2">
+                <div class="slider_1">
+                    <div class="slider_txt">
+                        <h3>LIMITED OFFER</h3>
+                        <H1> 30% off</H1>
+                        <h1>With <span>Promo Code</span></h1>
+                        <button type="button" class="btn">SHOP NOW</button>
+                    </div>
+                </div>
+            </section>
+        </li>
+
+        <!-- third slide------------------------------------- -->
+
+        <li class="item-a">
+            <section class="background slide_3">
+                <div class="slider_1">
+                    <div class="slider_txt">
+                        <h3>LIMITED OFFER</h3>
+                        <H1> 30% off</H1>
+                        <h1>With <span>Promo Code</span></h1>
+                        <button type="button" class="btn">SHOP NOW</button>
+                    </div>
+                </div>
+            </section>
+        </li>
+
+    </ul>
+
+    <!-- background section end--------------------------------------------------- -->
+
+    <!-- Featured category start----------------------------------------------------- -->
+
+    <section class="featured" id="kids">
+
+        <h1>FEATURED CATEGORIES</h1>
+        <div class="row">
+            <div class="col_6">
+                <div class="feature_box">
+                    <img class="img_1" src="./images/feature_1.jpg" alt="feature_1_img">
+                    <h5>T-Shirt</h5>
+                </div>
+            </div>
+            <div class="col_6">
+                <div class="feature_box">
+                    <img src="./images/feature_2.jpg" alt="feature_2_img" class="img">
+                    <h5>Men T-Shirt</h5>
+                </div>
+            </div>
+            <div class="col_6">
+                <div class="feature_box">
+                    <img src="./images/feature_3.jpg" alt="feature_3_img" class="img">
+                    <h5>Kids T-Shirt</h5>
+                </div>
+            </div>
+            <div class="col_6">
+                <div class="feature_box">
+                    <img src="./images/feature_4.jpg" alt="feature_4_img" class="img">
+                    <h5>Pillow</h5>
+                </div>
+            </div>
+            <div class="col_6">
+                <div class="feature_box">
+                    <img src="./images/feature_5.jpg" alt="feature_5_img" class="img">
+                    <h5>Phone Cover</h5>
+                </div>
+            </div>
+            <div class="col_6">
+                <div class="feature_box">
+                    <img src="./images/feature_6.jpg" alt="feature_6_img" class="img">
+                    <h5>Shopping Bags</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Featured category end----------------------------------------------------- -->
+
+    <!-- new arrival start-------------------------------------------------------- -->
+
+    <section class="new_arrival">
+
+        <h1>NEW ARRIVAL</h1>
+        <p>We Provide You New Fasion Design Clothes</p>
+
+        <div class="arrival_sec">
+            <div class="row">
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-1.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-2.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-3.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-4.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-5.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-6.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-7.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+                <div class="col_4">
+                    <div class="arrival_box">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="./images/p-8.png" alt="">
+                        <h5>Drawstring T-Shirt</h5>
+                        <h3>$22.00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- new arrival end-------------------------------------------------------- -->
+
+
+    <!-- sale section----------------------------------------------------- -->
+    <section class="sale" id="shop">
+        <div class="row_1">
+            <div class="col_3">
+                <div class="sale_box sale_1">
+                    <div class="sale_txt">
+                        <h1>Bag with rose</h1>
+                        <h1>Pattern</h1>
+                        <h2>Sale off 30%</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col_3">
+                <div class="sale_box sale_2">
+                    <div class="sale_txt">
+                        <h1>Bag with rose</h1>
+                        <h1>Pattern</h1>
+                        <h2>Sale off 30%</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col_3">
+                <div class="sale_box sale_3 sale_box_3">
+                    <div class="sale_txt">
+                        <h1>Bag with rose</h1>
+                        <h1>Pattern</h1>
+                        <h2>Sale off 30%</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <!-- sale section----------------------------------------------------- -->
+
+
+    <!-- featured item start------------------------------------------------- -->
+    <section class="item" id="men">
+        <h1>FEATURED ITEM</h1>
+        <p>We Provide You New Fasion Design Clothes</p>
+        <div class="row">
+            <div class="col_4">
+                <div class="item_box">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <img src="./images/p-1.png" alt="">
+                    <h5>Drawstring T-Shirt</h5>
+                    <h3>$22.00</h3>
+                </div>
+            </div>
+            <div class="col_4">
+                <div class="item_box">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <img src="./images/p-2.png" alt="">
+                    <h5>Drawstring T-Shirt</h5>
+                    <h3>$22.00</h3>
+                </div>
+            </div>
+            <div class="col_4">
+                <div class="item_box">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <img src="./images/p-3.png" alt="">
+                    <h5>Drawstring T-Shirt</h5>
+                    <h3>$22.00</h3>
+                </div>
+            </div>
+            <div class="col_4">
+                <div class="item_box">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <img src="./images/p-5.png" alt="">
+                    <h5>Drawstring T-Shirt</h5>
+                    <h3>$22.00</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- featured item end------------------------------------------------- -->
+
+    <!-- off section start----------------------------------------------------------- -->
+    <section class="background slide_3" id="women">
+        <div class="slider_1">
+            <div class="slider_txt">
+                <h3>LIMITED OFFER</h3>
+                <H1> 30% off</H1>
+                <h1>With <span>Promo Code</span></h1>
+                <button type="button" class="btn">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+    <!-- off section end----------------------------------------------------------- -->
+
+    <!-- contact section start------------------------------------------------- -->
+
+    <section class="contact">
+        <div class="row">
+            <div class="col_3">
+                <div class="contact_box">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                    <h1>Free Shipping</h1>
+                    <p> Free Shipping For All Order</p>
+                </div>
+            </div>
+            <div class="col_3">
+                <div class="contact_box">
+                    <i class="fa fa-headphones" aria-hidden="true"></i>
+                    <h1>Support 24/7</h1>
+                    <p>We support 24h a Day</p>
+                </div>
+            </div>
+            <div class="col_3">
+                <div class="contact_box">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                    <h1>100% Money Back</h1>
+                    <p>You Have 30 Days To Return</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- contact section end------------------------------------------------- -->
+
+    <!-- brand section start------------------------------------------------ -->
+    <section class="brand">
+        <div class="row">
+            <div class="col_4">
+                <img src="./images/puma.jpg" alt="brand_logo">
+            </div>
+            <div class="col_4">
+                <img src="./images/red chief.jpeg" alt="brand_logo">
+            </div>
+            <div class="col_4">
+                <img src="./images/adidas.jpg" alt="brand_logo">
+            </div>
+            <div class="col_4">
+                <img src="./images/h&m.png" alt="brand_logo">
+            </div>
+        </div>
+
+    </section>
+    <!-- brand section end------------------------------------------------ -->
+
+    <!-- footer section start------------------------------------------------ -->
+    <section class="footer">
+        <div class="row">
+            <div class="col_4">
+                <div class="footer_txt">
+                    <h1>EXTRAS</h1>
+                    <p>Brands</p>
+                    <p>Gift Certificates</p>
+                    <p>Affiliates</p>
+                    <p>Specials</p>
+                    <p>Site Map</p>
+                </div>
+            </div>
+            <div class="col_4">
+                <div class="footer_txt">
+                    <h1>INFORMATION</h1>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Condations</p>
+                    <p>Contact Us</p>
+                    <p>Site Map</p>
+
+                </div>
+            </div>
+            <div class="col_4">
+                <div class="footer_txt">
+                    <h1>MY ACCOUNT</h1>
+                    <p>My Account</p>
+                    <p>Order History</p>
+                    <p>Whish List</p>
+                    <p>Newsletter</p>
+                    <p>Returns</p>
+                </div>
+            </div>
+            <div class="col_4">
+                <div class="footer_txt">
+                    <h1>CONTACT US</h1>
+                    <p> <span><i class="fa fa-map-marker" aria-hidden="true"></i></span> 42 Dream House,Dreammy street</p>
+                    <p>7131 Dreamville, USA</p>
+                    <p> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> company@gmail.com</p>
+                    <p> <span><i class="fa fa-phone" aria-hidden="true"></i></span> 455-645-4521</p>
+                    <p>Site Map</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <!-- footer section end------------------------------------------------ -->
+
+
+
+
+
+
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./lightslider-master/dist/js/lightslider.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
