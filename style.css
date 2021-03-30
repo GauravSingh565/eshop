@@ -241,7 +241,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 102;
+    z-index: 10002;
 }
 
 .login-form,
