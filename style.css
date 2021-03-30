@@ -810,6 +810,7 @@ html {
 @media(max-width:800px) {
     .form {
         padding-bottom: 350px !important;
+        z-index: 20000;
     }
     .menu {
         display: block;
